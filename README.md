@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-This GPIO based Garage Door plugin uses a [Raspberry Pi](https://www.raspberrypi.org) equipped with [Homebridge](https://github.com/nfarina/homebridge), an externel relay board and a reed switch to control a garage door through Apple's [HomeKit](https://www.apple.com/ios/home/).
+This GPIO based Garage Door plugin uses a [Raspberry Pi](https://www.raspberrypi.org) equipped with [Homebridge](https://github.com/nfarina/homebridge), an external relay board and a reed switch to control a garage door through Apple's [HomeKit](https://www.apple.com/ios/home/).
 
 This setup will work with most garage door openers which expect 2 connection points on the garage door opener to be connected to activate the garage door.
 
@@ -117,4 +117,4 @@ Mount the reed switch to a point where your garage would be in the closed positi
 
 ![Connection to garage door motor](images/dooropener.jpeg)
 
-Check your garge door opener manual to determine which 2 contact points need to be connected to activate the door opener. These 2 contact points need to be connected to the COM and NO connectors on your relay board.
+Check your garage door opener manual to determine which 2 contact points need to be connected to activate the door opener. These 2 contact points need to be connected to the COM and NO connectors on your relay board.
