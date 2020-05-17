@@ -10,7 +10,7 @@ var gpioReadAsync = Promise.promisify(Gpio.prototype.read);
 var gpioWriteAsync = Promise.promisify(Gpio.prototype.write);
 
 export enum GPIOState {
-	On = 0,
+	On = 0, /* set activation to logic: hot pin = activate relay */
 	Off = 1,
 }
 
