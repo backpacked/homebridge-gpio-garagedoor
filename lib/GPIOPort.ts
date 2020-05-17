@@ -10,8 +10,8 @@ var gpioReadAsync = Promise.promisify(Gpio.prototype.read);
 var gpioWriteAsync = Promise.promisify(Gpio.prototype.write);
 
 export enum GPIOState {
-	On = 1,
-	Off = 0,
+	On = 0,
+	Off = 1,
 }
 
 export type GPIODirection =
