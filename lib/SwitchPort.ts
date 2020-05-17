@@ -18,7 +18,7 @@ export class SwitchPort extends GPIOPort {
 	}
 
 	constructor(pin, service, log, doorSensor: DoorSensorPort, doorOpensInSeconds) {
-		super(pin, 'out');
+		super(pin, 'high');
 		this.service = service;
 		this.log = log;
 		this.isOperating = false;
