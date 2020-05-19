@@ -59,7 +59,7 @@ Likewise, if you want to control 2 or more garage doors:
     "accessories": [
         {
             "accessory": "GPIOGarageDoor",
-            "name": "Garage Wouter",
+            "name": "Garage One",
             "doorSwitchPin": 23,
             "doorSensorPin": 18,
             "isNCSensor": false,
@@ -67,7 +67,7 @@ Likewise, if you want to control 2 or more garage doors:
         },
         {
             "accessory": "GPIOGarageDoor",
-            "name": "Garage Aimée",
+            "name": "Garage Two",
             "doorSwitchPin": 24,
             "doorSensorPin": 17,
             "isNCSensor": false,
