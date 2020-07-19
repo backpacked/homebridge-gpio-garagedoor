@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.5",
-    "onoff": "^4.1.2"
+    "onoff": "^6.0.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.27",
